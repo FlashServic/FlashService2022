@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>FlashServices</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  
+
+  <title>Layout PF</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+     <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 625px;
+            background: linear-gradient(to top, rgb(25, 25, 83), rgb(189, 189, 189));
+  }
+        
+
+/* style para o search */
+form.pesquisa input[type=search] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(63, 63, 63);
+  float: center;
+  width: 30%;
+  height: 7%;
+  background: #f1f1f1;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+  margin-top: 5%;
+  margin-left: 31%;
+  border-right: none;
+ 
+}
+input:focus{
+    
+    outline: none; /*retira a linha azul que fica no input*/
+}
+
+/* Style para o  button */
+form.pesquisa button {
+  float: center;
+  width: 10%;
+  padding: 10px;
+  background:  #ffda0b;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(63, 63, 63);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left:-5%;
+ 
+ 
+}
+
+form.pesquisa button:hover {
+  background: #0b7dda;
+}
+ 
+
+button{
+    margin-left: px;
+    border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+ 
+    
+}
+button:focus{
+    outline: none; 
+}
+.historico {
+width: 500px;
+}
+.fa {
+    font-size: 25px;
+    color: rgb(56, 56, 56);
+}
+datalist#historico > option {
+
+     width: 100%; 
+    }
+div.p {
+  width: 550px;
+  margin-top: 25%;
+  margin-left:28% ;
+  text-align: center;
+  font-size: 15pt;
+  background-color: cornsilk;
+  padding: 7px;
+  font-family:  sans-serif;
+}
+    </style>
+
+</head>
+
+<body>
+<header>
+  <div class="hero">
+		<nav>
+			<h2 class="logo">Flash<span>Services</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Como Funciona</a></li>
+				<li><a href="#">Sobre a Empresa</a></li>
+				<li><a href="login.html">Entrar</a></li>
+				<li><a href="usuariocadastrarform.html">Cadastrar</a></li>
+		</nav>
+
+</header>
+
+  <section class="pacotes">
+
+<h1 id="servicos" class="pacotes-title">Conheça Nossos Serviços</h1>
+
+      <div class="pacotes-cards">
+      <div class="card">
+          
+          <img class="card-image" src="https://img.freepik.com/fotos-gratis/trabalhador-da-construcao-civil-com-capacete-construindo-o-telhado-da-casa_23-2148748846.jpg?size=338&ext=jpg" alt="construção">
+          <div class="card-content">
+           </i>  <h1>Construção</h1>
+           
+          </div>
+      </div>
+
+      <div class="card">
+          
+        <img class="card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlP5C7pjFEJxfZpmAA0v5m9MvYLSKS2Zsjw&usqp=CAU" alt="faxina">
+        <div class="card-content">
+         </i>  <h1>Serviços Gerais</h1>
+         
+        </div>
+    </div>
+
+    <div class="card">
+          
+        <img class="card-image" src="https://blog.lg.com.br/wp-content/uploads/2019/11/tecnologia-e-ser-humano-1.png" alt="tecnologia">
+        <div class="card-content">
+         </i>  <h1>Tecnologia</h1>
+         
+        </div>
+    </div>
+
+
+<div class="card">
+          
+    <img class="card-image" src="https://blog.uceff.edu.br/wp-content/uploads/2020/06/ucefffaculdades_uceff_image_530.jpeg" alt="estética">
+    <div class="card-content">
+     </i>  <h1>Estética</h1>
+     
+    </div>
+</div>
+
+
+<div class="card">
+          
+    <img class="card-image" src="https://www.pedrosoerocha.com.br/images/otm/jardinagem-e-paisagismo.jpg" alt="jardinagem">
+    <div class="card-content">
+     </i>  <h1>Jardinagem</h1>
+     
+    </div>
+</div>
+
+
+<div class="card">
+          
+    <img class="card-image" src="https://www.infoescola.com/wp-content/uploads/2017/05/eletricista_567307042.jpg">
+    <div class="card-content">
+     </i>  <h1>Eletricista</h1>
+     
+    </div>
+</div>
+</div
+
+  </section>
+  
+  
+  <form class="pesquisa" >
+    <input type="search" action="" placeholder="Pesquisar Serviço..."list="historico">
+    <button type="submit">pesquisar</button>
+
+    <datalist id="historico">
+        <option value="Assistencia Tecnica de Celular"></option>
+        <option value="Assistencia Tecnica de Computador"></option>
+        <option value="Assistencia Tecnica de Informatica"></option>
+        <option value="Assistencia Tecnica de Notebook"></option>
+        <option value="Densenvolvidor de Sites"></option>
+        <option value="Manutenção de portão eletronica"></option>
+        <option value="Tecnico de Informatica"></option>
+        <option value="Cabeleleiro"></option>
+        <option value="Manicure"></option>
+        <option value="Depiladora"></option>
+        <option value="Designer de Sombrancelha"></option>
+        <option value="Massagista"></option>
+        <option value="Esteticista"></option>
+        <option value="Baba"></option>
+        <option value="Colocador de pisos"></option>
+        <option value="Costureira"></option>
+        <option value="Cuidador(a) de idosos"></option>
+        <option value="Desentupidor"></option>
+        <option value="Diarista"></option>
+        <option value="Faxineira"></option>
+        <option value="Impermeabialização"></option>
+        <option value="Passadeira"></option>
+        <option value="Pintor"></option>
+        <option value="Paicologo"></option>
+        <option value="Tapeceiro"></option>
+    </datalist>
+  </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+  <section class="funciona">
+      <h1 class="funciona-title">Como Funciona?</h1>
+      <div class="funciona-cards">
+    
+        <div class="card">
+            <br>
+            <div class="card-content">
+            <h3>Para Profissional</h3>
+           <p>O cliente acessa, pesquisa, encontra seu anúncio e conversa com você.
+
+              Nós não nos envolvemos em nenhuma negociação ou orçamento.
+              
+              Nós simplesmente mostramos você, prestador de serviços, para o cliente que possui
+
+              uma necessidade. </p>
+        </div>
+</div>
+
+        <div class="card">
+            <div class="card-content">
+           <h3> Clientes e Profissionais</h3>
+           <p>Viemos para aproximar clientes e profissionais de forma simples, rápida e colaborativa!
+
+            Faça parte dessa parceria você também</p>
+
+<br>
+<br>
+        </div>
+</div>
+
+
+        <div class="card">
+            <div class="card-content">
+            
+            <br>
+            <h3>Para Cliente</h3>
+           <p>Encontre pedreiro, eletricista, costureira, encanador, passeador de cães, cuidador, faxineira ou diarista e muito mais.
+
+            Você vai encontrar vários prestadores de serviços que podem te atender e estão próximos de você.
+            
+            Clique no whatsapp de quantos profissionais quiser e converse diretamente com eles.
+        </div>
+    </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+   </section>
+ 
+<section class="about">
+    <div class="main">
+        <img src="https://gdr.adv.br/wp-content/uploads/Detalhes-obrigat%C3%B3rios-em-um-contrato-de-presta%C3%A7%C3%A3o-de-servi%C3%A7os.png" alt="prestacao">
+        <div class="about-text">
+            <h2>Sobre nossa empresa</h2>
+            <h5>Prestação de Serviços</h5>
+            <p>Foi criada em 18 de fevereiro com o intuito de facilitar a conexão entre clientes e profissionais em pró de ajudar na divulgação de trabalhadores que precisam de divulgção.</p>
+            
+        </div>
+    </div>
+</section>
+
+ 
+<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-sm-6 col-md-3 item">
+                        
+                    <div class="col item social"><a href="https://pt-br.facebook.com/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/pt-BR"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">© 2022 - Todos os direitos reservados | FLASH SERVICES | CNPJ : 27.227.433/0001-96</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>

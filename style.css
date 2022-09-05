@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+     margin: 0;
+     font-family: 'Montserrat', sans-serif;
+     
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    height: 100vh;
+    background: no-repeat center/cover url('logo4_30_15178.jpeg') 
+   
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: left;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: #ffda0b;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: black;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px  15px;
+  position: right;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+
+}
+
+nav ul li a:hover{
+	color: #ffda0b;
+	transition: .4s;
+}
+.btn{
+	background-color: #ffda0b;
+	color: Black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+
+.pacotes{
+    
+    background:#dcdcdc;
+    padding: 10px;
+}
+
+.pacotes .pacotes-cards{
+    display: flex;
+    max-width: 990px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pacotes .pacotes-title{
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 65px;
+}
+
+
+.pacotes .card{
+    width: 250px;
+    height: 320px;
+    background: #dcdcdc;
+    border-radius: 24px 0px;
+    margin:50px auto;
+    
+}
+
+.pacotes .card-image{
+    width: 250px;
+    height: 240px;
+    border-radius: 24px 0 0 0;
+}
+
+.pacotes .card-content{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+.funciona{
+    padding: 25px;
+}
+
+
+.funciona .funciona-title{
+    text-align: center;
+    margin: 65px 0;
+    font-size: 65px;
+}
+
+.funciona .funciona-cards{
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+ .funciona .card{
+    width: 250px;
+    height: 300px;
+    border-radius: 24px 0 0 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0 25px;
+ }
+
+ .funciona .card h3{
+     font-weight: bold;
+ }
+
+ .funciona .card p{
+     color: grey;
+     font-size: .8rem;
+     text-align: center;
+ }
+
+.funciona .card .card-content{
+    height: 180px;
+    text-align: center;
+}
+
+.about{
+	width: 100%;
+	padding: 100px 5px;
+	background-color: #191919;
+}
+
+ .about img{
+  height: auto;
+  width: 390px;
+  width: 35%;
+}
+.about-text{
+  width: 530px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: black;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 55px;
+}
+
+span{
+	color:  #ffda0b;
+}
+
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #ffda0b;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#ffda0b;
+	color: black;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px; 
+}
+
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#000;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+	text-align: center;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+	text-align: center;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+	
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 480px){
+    body {
+       margin-bottom: 55px;
+    }
+    
+    header nav ul{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;  
+        padding: 0;
+        margin:0;
+
+        z-index:99;
+
+        background: #1d61dd;
+        color: white;
+        font-weight: bold;
+        height: 55px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav p{
+        width: 100%;
+        text-align: center;
+    }
+}

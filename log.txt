@@ -1,0 +1,126 @@
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('ddddd', 'sfsf@dfsgg', '12345678Ab!', 'Admin') - 05/04/2022 - 13:21:35
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('jkhkhkjhk', 'dfsd@fdhgfh', '4567890Ad#', 'Comum') - 05/04/2022 - 13:22:27
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('nljljk', 'fgfgf@bbvb', 'sfhfhfhTy7@', 'Comum') - 05/04/2022 - 13:24:28
+Pedro - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('Asa', 'ddd@gggg', '12345678Ad@', 'Comum') - 05/04/2022 - 15:46:34
+Pedro - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('uuuuuu', 'tttt@ffffff', '3454665AAd#', 'Admin') - 05/04/2022 - 17:00:12
+Pedro - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('gjhjhjhj', 'dfgdgd@htfgh', 'gfgdfgfhf!56A', 'Comum') - 05/04/2022 - 17:01:49
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('aaaa', 'cursomundodosnegocios@gmail.com', '8Sm3U2bLCB7EVJc', 'Admin') - 02/05/2022 - 20:50:31
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('hhhhhhhh', 'cusds@dsfd', '8Sm3U2bLCB7EVJc', 'Comum') - 02/05/2022 - 20:53:34
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('gdfgdf', 'dfdhr@dfsdf', '8Sm3U2bLCB7EVJc', 'Admin') - 02/05/2022 - 20:53:54
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('sfdfd', 'ddd@dcwdc', '8Sm3U2bLCB7EVJc', 'Comum') - 02/05/2022 - 20:56:04
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('eu', 'eu@eu', '$2y$10$hnfmIVOhNugiA20bBwnuWeUEoaGCREDkhcB/TS7alpI99ylidOHzK', 'Admin') - 29/05/2022 - 22:46:30
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('vc', 'vc@vc', '$2y$10$2wkLRkrqmn6hBbY4c.Rp7.56pPZC5CcPAx8IZW6MN2gCyLHOOwRFK', 'Admin') - 29/05/2022 - 22:51:47
+Maria - DELETE FROM usuarios WHERE id=5 - 31/05/2022 - 12:44:07
+Maria - DELETE FROM usuarios WHERE id=6 - 31/05/2022 - 12:44:10
+Maria - INSERT INTO usuarios(nome, email, senha, acesso) VALUES('aaaaa', 'xxx@xxx', '12345678!Aa', 'Comum') - 31/05/2022 - 12:45:29
+Maria - UPDATE usuarios SET nome='Marta', email='marta@gmail', acesso='Admin' WHERE id=3 - 31/05/2022 - 12:46:00
+Maria - UPDATE usuarios SET nome='Marcos', email='marcos@gmail', acesso='Admin' WHERE id=4 - 31/05/2022 - 12:46:07
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(1111, 2) - 01/06/2022 - 12:37:43
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(4444, 1) - 01/06/2022 - 13:41:32
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(5555, 2) - 01/06/2022 - 13:41:47
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(0, 2) - 01/06/2022 - 14:18:57
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(7777, 1) - 02/06/2022 - 12:43:56
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(4444, 1) - 02/06/2022 - 13:11:19
+Maria - INSERT INTO turmas(numero, curso_id) VALUES(5555, 1) - 02/06/2022 - 13:27:46
+ - UPDATE usuarios SET Status='Inativo' WHERE id=5 - 17/06/2022 - 16:20:16
+ - UPDATE usuarios SET Status='Inativo' WHERE id=2 - 17/06/2022 - 16:21:31
+ - UPDATE usuarios SET Status='Ativo' WHERE id=8 - 17/06/2022 - 16:45:17
+ - UPDATE usuarios SET Status='Ativo' WHERE id=8 - 17/06/2022 - 16:45:33
+ - UPDATE usuarios SET Status='Ativo' WHERE id=8 - 17/06/2022 - 16:45:52
+ - UPDATE usuarios SET Status='Inativo' WHERE id=8 - 17/06/2022 - 16:46:54
+ - UPDATE usuarios SET Status='Inativo' WHERE id=2 - 17/06/2022 - 18:10:07
+ - UPDATE usuarios SET Status='Inativo' WHERE id=4 - 17/06/2022 - 18:10:17
+ - UPDATE usuarios SET Status='Inativo' WHERE id=5 - 17/06/2022 - 18:10:25
+ - UPDATE usuarios SET Status='Inativo' WHERE id=5 - 17/06/2022 - 18:10:32
+ - UPDATE usuarios SET Status='Inativo' WHERE id=3 - 17/06/2022 - 18:10:44
+ - UPDATE usuarios SET Status='Inativo' WHERE id=5 - 17/06/2022 - 18:10:49
+ - UPDATE usuarios SET Status='Ativo' WHERE id=2 - 17/06/2022 - 18:13:26
+ - UPDATE usuarios SET Status='Ativo' WHERE id=3 - 17/06/2022 - 18:13:33
+ - UPDATE usuarios SET Status='Ativo' WHERE id=3 - 17/06/2022 - 18:13:36
+ - UPDATE usuarios SET Status='Ativo' WHERE id=5 - 17/06/2022 - 18:13:41
+ - UPDATE usuarios SET Status='Ativo' WHERE id=5 - 17/06/2022 - 18:13:44
+ - UPDATE usuarios SET Status='Ativo' WHERE id=2 - 17/06/2022 - 18:13:51
+ - UPDATE usuarios SET Status='Ativo' WHERE id=2 - 17/06/2022 - 18:13:57
+ - UPDATE usuarios SET Status='Ativo' WHERE id=3 - 17/06/2022 - 18:14:01
+ - UPDATE usuarios SET Status='Ativo' WHERE id=5 - 17/06/2022 - 18:14:05
+ - UPDATE usuarios SET Status='ativo' WHERE id=4 - 17/06/2022 - 18:16:26
+ - UPDATE usuarios SET Status='inativo' WHERE id=4 - 17/06/2022 - 18:16:33
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 17/06/2022 - 18:17:29
+Maria - INSERT INTO usuarios(nome, email, senha, acesso, status) VALUES('Zero ', 'ddd@ddd', '12345678#Aa', 'Admin', 'ativo') - 17/06/2022 - 18:19:03
+ - UPDATE usuarios SET Status='inativo' WHERE id=3 - 17/06/2022 - 21:09:52
+ - UPDATE usuarios SET Status='ativo' WHERE id=2 - 17/06/2022 - 21:10:02
+ - UPDATE usuarios SET Status='inativo' WHERE id=2 - 20/06/2022 - 11:00:58
+ - UPDATE usuarios SET Status='inativo' WHERE id=10 - 20/06/2022 - 12:03:47
+Maria - UPDATE usuarios SET Status='ativo' WHERE id=3 - 20/06/2022 - 15:59:53
+Maria - UPDATE usuarios SET Status='ativo' WHERE id=4 - 20/06/2022 - 15:59:55
+Maria - UPDATE usuarios SET Status='ativo' WHERE id=2 - 20/06/2022 - 15:59:56
+Maria - UPDATE usuarios SET Status='ativo' WHERE id=10 - 20/06/2022 - 16:00:04
+Maria - INSERT INTO usuarios(nome, email, senha, acesso, status) VALUES('dddd', 'cursomundodosnegocios@gmail.com', '12345678!Ab', 'Comum', 'ativo') - 20/06/2022 - 16:09:19
+Maria - UPDATE usuarios SET Status='inativo' WHERE id=2 - 20/06/2022 - 16:11:01
+Maria - UPDATE usuarios SET Status='inativo' WHERE id=4 - 20/06/2022 - 16:11:03
+Maria - INSERT INTO usuarios(nome, email, senha, acesso, status) VALUES('Zé', 'abrivio@gmail.com', '$2y$10$iFIsFDPbEsHuAULHpw6bFuwYzpS2euX6xRTzkqZV5mx4/MEEFg7QW', 'Comum', 'ativo') - 26/06/2022 - 15:31:40
+Maria - INSERT INTO usuarios(nome, email, senha, acesso, status, validador) VALUES('Zé3', 'abrivio@gmail.com', '$2y$10$EtZIQtZD4Cb0uuC1G3VB9Ooof0BpJ66lNSwyETOkAELPFKEXgzKXG', 'Admin', 'aguardando', 35454852) - 26/06/2022 - 16:03:32
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 01/07/2022 - 14:56:46
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 01/07/2022 - 14:58:18
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 01/07/2022 - 14:58:56
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 01/07/2022 - 15:02:01
+Rafael - DELETE FROM usuario WHERE id=4 - 01/07/2022 - 16:34:14
+Rafael - UPDATE usuario SET Status='ativo' WHERE id=3 - 01/07/2022 - 16:34:27
+Rafael - UPDATE usuario SET Status='ativo' WHERE id=3 - 01/07/2022 - 16:34:40
+Rafael - UPDATE usuario SET Status='ativo' WHERE id=3 - 01/07/2022 - 16:34:49
+Rafael - UPDATE usuario SET Status='ativo' WHERE id=7 - 01/07/2022 - 16:35:04
+Rafael - UPDATE usuario SET nome='Millena', email='Milena@gmail.com', telefone='', acesso='Admin' WHERE id=3 - 01/07/2022 - 16:36:19
+Rafael - UPDATE usuario SET nome='Millena', email='Millena@gmail.com', telefone='', acesso='Admin' WHERE id=3 - 01/07/2022 - 16:36:39
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 04/07/2022 - 14:23:04
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 04/07/2022 - 14:24:41
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 04/07/2022 - 14:26:31
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(0, 0) - 04/07/2022 - 14:27:18
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(1, 2) - 04/07/2022 - 14:31:02
+rayane - UPDATE usuario SET Status='ativo' WHERE id=2 - 04/07/2022 - 14:39:46
+rayane - UPDATE usuario SET Status='ativo' WHERE id=3 - 04/07/2022 - 14:39:47
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:39:47
+rayane - UPDATE usuario SET Status='ativo' WHERE id=7 - 04/07/2022 - 14:39:48
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:42:36
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:42:37
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:42:37
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:42:37
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:42:38
+rayane - UPDATE usuario SET Status='ativo' WHERE id=6 - 04/07/2022 - 14:42:38
+rayane - UPDATE usuario SET Status='ativo' WHERE id=2 - 04/07/2022 - 14:43:49
+rayane - UPDATE usuario SET Status='ativo' WHERE id=2 - 04/07/2022 - 14:43:49
+rayane - UPDATE usuario SET Status='ativo' WHERE id=2 - 04/07/2022 - 14:44:14
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:45:51
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:45:58
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:47:18
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:47:35
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:47:38
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:47:38
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:47:39
+rayane - UPDATE usuario SET Status='inativo' WHERE id=3 - 04/07/2022 - 14:47:43
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:52:48
+rayane - UPDATE usuario SET Status='inativo' WHERE id=7 - 04/07/2022 - 14:52:58
+rayane - UPDATE usuario SET Status='inativo' WHERE id=6 - 04/07/2022 - 14:53:09
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:53:24
+rayane - UPDATE usuario SET Status='inativo' WHERE id=3 - 04/07/2022 - 14:53:27
+rayane - UPDATE usuario SET Status='inativo' WHERE id=6 - 04/07/2022 - 14:53:28
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:55:32
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:55:39
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:55:40
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:55:40
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:55:41
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:55:42
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:57:35
+rayane - UPDATE usuario SET Status='inativo' WHERE id=2 - 04/07/2022 - 14:59:16
+rayane - UPDATE usuario SET Status='ativo' WHERE id=2 - 04/07/2022 - 14:59:53
+rayane - UPDATE usuario SET Status='ativo' WHERE id=2 - 04/07/2022 - 14:59:59
+luisa - INSERT INTO profissional(usuario_id, servico_id) VALUES(2, 42) - 05/07/2022 - 14:00:32
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(1, 11) - 06/07/2022 - 12:32:41
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(1, 26) - 06/07/2022 - 13:13:33
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(1, 38) - 06/07/2022 - 13:14:09
+rayane - INSERT INTO profissional(usuario_id, servico_id) VALUES(1, 9) - 02/08/2022 - 14:11:03
+Rayane Santos - INSERT INTO profissional(usuario_id, servico_id) VALUES(15, 3) - 08/08/2022 - 14:45:16
+Rayane Santos - INSERT INTO profissional(usuario_id, servico_id) VALUES(15, 40) - 18/08/2022 - 13:11:46
+Rayane Santos - DELETE FROM usuario WHERE id=7 - 19/08/2022 - 14:23:08
+Rayane Santos - UPDATE usuario SET Status='ativo' WHERE id=6 - 19/08/2022 - 14:31:03
+Rayane Santos - UPDATE usuario SET Status='inativo' WHERE id=6 - 19/08/2022 - 14:31:15
+Rayane Santos - UPDATE usuario SET Status='ativo' WHERE id=6 - 19/08/2022 - 14:31:30
